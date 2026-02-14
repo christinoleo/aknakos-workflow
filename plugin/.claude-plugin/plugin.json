@@ -1,5 +1,5 @@
 {
-  "name": "aknakos-workflow",
+  "name": "aknakos",
   "description": "Dev workflow toolkit: beads-based task pickup, Linus-style code review, plan/execute orchestration, coverage audits, triage, and browser verification.",
   "version": "1.0.0",
   "author": {
