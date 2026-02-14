@@ -1,0 +1,15 @@
+{
+  "name": "aknakos-workflow",
+  "description": "Personal dev workflow toolkit — beads orchestration, code review, planning, and browser verification",
+  "owner": {
+    "name": "aknakos"
+  },
+  "plugins": [
+    {
+      "name": "aknakos-workflow",
+      "source": "./plugin",
+      "description": "Dev workflow commands: bcheck, linus, p1/p2 orchestration, replan, redelta, triage, verify, plan-to-beads",
+      "version": "1.0.0"
+    }
+  ]
+}

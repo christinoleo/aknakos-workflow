@@ -1,0 +1,25 @@
+{
+  "description": "Workflow hints — injects next-step context based on tool/skill usage",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "EnterPlanMode",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/workflow-hints.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/workflow-hints.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
