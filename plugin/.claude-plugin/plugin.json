@@ -1,6 +1,6 @@
 {
   "name": "ak",
-  "description": "Dev workflow toolkit: beads-based task pickup, Linus-style code review, plan/execute orchestration, coverage audits, triage, and browser verification.",
+  "description": "Dev workflow toolkit: beads-based task pickup, Linus-style code review, plan/execute orchestration, coverage audits, triage, browser verification, and TUI piloting.",
   "version": "1.0.0",
   "author": {
     "name": "aknakos"
@@ -12,6 +12,7 @@
     "orchestration",
     "beads",
     "triage",
-    "verification"
+    "verification",
+    "tui"
   ]
 }

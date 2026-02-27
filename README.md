@@ -17,6 +17,7 @@ Personal Claude Code plugin marketplace — dev workflow commands and hooks.
 | `/p1-trigger` | Trigger loop for Phase 1 (called by /p1, do not run directly) |
 | `/p2` | Phase 2 orchestration: execute epic tasks with review between each (spawns trigger agent) |
 | `/p2-trigger` | Trigger loop for Phase 2 (called by /p2, do not run directly) |
+| `/pilot` | Launch and control any TUI app (lazygit, btop, ncdu, etc.) inside a tmux session |
 
 ## Hooks
 
@@ -64,7 +65,8 @@ aknakos-workflow/
 │   │   ├── redelta.md
 │   │   ├── replan.md
 │   │   ├── triage.md
-│   │   └── verify.md
+│   │   ├── verify.md
+│   │   └── pilot.md
 │   └── hooks/
 │       ├── hooks.json          # Hook configuration
 │       └── workflow-hints.sh   # Workflow hint injection

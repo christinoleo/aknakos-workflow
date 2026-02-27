@@ -6,9 +6,9 @@
   },
   "plugins": [
     {
-      "name": "aknakos",
+      "name": "ak",
       "source": "./plugin",
-      "description": "Dev workflow commands: bcheck, linus, p1/p2 orchestration, replan, redelta, triage, verify, plan-to-beads",
+      "description": "Dev workflow commands: bcheck, linus, p1/p2 orchestration, replan, redelta, triage, verify, plan-to-beads, pilot",
       "version": "1.0.0"
     }
   ]
