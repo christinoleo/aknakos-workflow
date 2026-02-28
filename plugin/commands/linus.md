@@ -60,7 +60,7 @@ For each potential issue found, spawn a sub-agent in parallel (Task tool, subage
 3. **Summarize** - One paragraph for final report similar to main agent's 4th step above.
 
 In parallel with the investigation agents, also run the **code-simplifier agent** on the changed
-files. Include its simplification suggestions as 💡 Minor / Style findings in the final output,
+files. Include its simplification suggestions as 🧹 Simplify findings in the final output,
 alongside the investigation results.
 
 This filters out false positives and re-categorizes issues (e.g. moving to or from critical)
@@ -78,8 +78,8 @@ feedback (use the ~3:1 ratio), overall follow-up and clever (linus-style comedy)
 ending line.
 
 **Classification:**
-- Severity: 🔴 Critical | ⚠️ Important | 💡 Minor
-- Action: 🚫 Must-Fix (M.1) | 📌 Should-Fix (S.1) | 💭 Nice-to-Have (N.1)
+- Severity: 🔴 Critical | ⚠️ Important | 💡 Minor | 🧹 Simplify
+- Action: 🚫 Must-Fix (M.1) | 📌 Should-Fix (S.1) | 💭 Nice-to-Have (N.1) | 🧹 Simplify (X.1)
 
 ---
 
