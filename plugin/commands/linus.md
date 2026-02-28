@@ -59,6 +59,10 @@ For each potential issue found, spawn a sub-agent in parallel (Task tool, subage
 2. **Fix** - Specific fix matching project style (should have alternatives and preferred suggestion)
 3. **Summarize** - One paragraph for final report similar to main agent's 4th step above.
 
+In parallel with the investigation agents, also run the **code-simplifier agent** on the changed
+files. Include its simplification suggestions as 💡 Minor / Style findings in the final output,
+alongside the investigation results.
+
 This filters out false positives and re-categorizes issues (e.g. moving to or from critical)
 before presenting findings.
 

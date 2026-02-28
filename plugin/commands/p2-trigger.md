@@ -62,7 +62,12 @@ If main is idle: check if task was closed with `bd show <TASK_ID>`.
 
 If main is waiting/permission: log and re-wait for idle (user handles it).
 
-### 3. Run /linus review
+### 3. Run code simplifier
+Send to main: "Use the code simplifier agent to clean up the code you just wrote."
+
+Wait for idle.
+
+### 4. Run /linus review
 Send to main: "/linus"
 
 Wait for idle. Capture output (last 80 lines).
@@ -71,7 +76,7 @@ Check for critical or important findings. If found:
 Send to main: "/triage"
 Wait for idle.
 
-### 4. Compact (conditional)
+### 5. Compact (conditional)
 Capture the last 5 lines of main's output to check the context usage bar.
 Look for a percentage like `[███░░ 52%]` in the status line.
 
@@ -81,7 +86,7 @@ If context usage is **>50%**:
 
 If context usage is **≤50%**: skip compaction.
 
-### 5. Next iteration
+### 6. Next iteration
 Go back to step 1.
 
 ## FINAL GATES
